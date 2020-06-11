@@ -1,0 +1,81 @@
+body {
+  padding-bottom: 3rem;
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+select {
+  margin: 0 auto 1rem auto;
+  font-family: inherit;
+  width: 100%;
+  max-width: 800px;
+}
+
+article.abteilung {
+  border: 1px solid var(--color-text);
+  padding: 0.25rem;
+}
+
+article.abteilung h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.infobox {
+  background-color: var(--color-yellow);
+  color: #333;
+  max-width: var(--width-card-wide);
+  margin: 0 auto 1rem auto;
+  padding: 0 0.25rem;
+  border-radius: var(--border-radius);
+}
+
+.infopox p {
+  margin: 0;
+  padding: 0; 
+}
+
+.infobox a {
+  color: inherit;
+}
+
+.aktuell p {
+  font-style: italic;
+}
+
+.aktuell p:before {
+  content: "--> ";
+}
+
+ul {
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li.pos:before {
+  content: '✔';
+  color: var(--color-green);
+  margin-right: 0.5rem;
+}
+
+ul li.neg:before {
+  content: '✖';
+  color: var(--color-red);
+  margin-right: 0.5rem;
+}
+
+footer img {
+  height: 1rem;
+}
+
+@media(prefers-color-scheme: dark) {
+  footer img {
+    filter: invert(1);
+  }
+}
