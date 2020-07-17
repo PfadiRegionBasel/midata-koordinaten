@@ -154,12 +154,12 @@
         <h3>Bezirk Zytröseli</h3>
         <ul>
           <li class="pos">Bischofstein</li>
-          <li class="neg">Falkenstein</li>
+          <li class="pos">Falkenstein</li>
           <li class="pos">Ramstein</li>
           <li class="pos">Schalberg</li>
           <li class="pos">Pfadi Schenkenberg</li>
         </ul>
-        <p>2 von 5</p>
+        <p>5 von 5</p>
       </div>
     </div>
   </article>
