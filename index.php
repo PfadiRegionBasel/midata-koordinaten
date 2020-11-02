@@ -143,12 +143,12 @@
         <h3>Bezirk Rheinbund</h3>
         <ul>
           <li class="pos">Möhlin</li>
-          <li class="neg">PTA Pfadi Riehen</li>
+          <li class="pos">PTA Pfadi Riehen</li>
           <li class="pos">Pro Patria</li>
           <li class="pos">Rheinbund</li>
           <li class="pos">Rheinfelden</li>
         </ul>
-        <p>4 von 5</p>
+        <p>5 von 5</p>
       </div>
       <div class="col">
         <h3>Bezirk Zytröseli</h3>
