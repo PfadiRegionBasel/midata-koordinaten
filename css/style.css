@@ -29,10 +29,10 @@ h1 {
 }
 
 select {
-  margin: 0 auto 1rem auto;
+  margin: 0 auto;
   font-family: inherit;
   width: 100%;
-  max-width: 800px;
+  apperance: none;
 }
 
 article.abteilung {
