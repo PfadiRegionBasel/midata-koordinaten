@@ -4,7 +4,7 @@
   header('X-Frame-Options: deny');
   header("X-XSS-Protection: 1; mode=block");
   header("Referrer-Policy: no-referrer");
-  header("Content-Security-Policy: default-src 'self'; script-src 'unsafe-inline'; frame-src https://www.google.com");
+  header("Content-Security-Policy: default-src 'self'; script-src 'self'; frame-src https://www.google.com");
 ?>
 
 <!DOCTYPE html>
@@ -199,21 +199,6 @@
   </footer>
 
   <script src="js/jquery.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $("#abteilung").change(function(){
-        var allbooks = $(this).val();
-        var dataString = "abteilungsId="+allbooks;
-        $.ajax({
-          type: "POST",
-          url: "get-data.php",
-          data: dataString,
-          success: function(result){
-            $("#show").html(result);
-          }
-        });
-      });
-    });
-  </script>
+  <script src="js/ajax.js"></script>
 </body>
 </html>
