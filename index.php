@@ -170,11 +170,9 @@
     </details>
   </article>
   
-  <!--
   <footer class="small text-center">
-    <p><a href="https://github.com/jgrueter/midata-koordinaten" target="_blank" rel="noopener noreferrer"><img src="img/github.svg"></a></p>
+    <p><a href="https://github.com/PfadiRegionBasel/midata-koordinaten" target="_blank" rel="noopener noreferrer"><img src="img/github.svg"></a></p>
   </footer>
-  -->
 
   <script src="js/jquery.js"></script>
   <script type="text/javascript">
