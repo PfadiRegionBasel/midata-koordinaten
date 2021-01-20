@@ -47,8 +47,11 @@ h1 {
 select {
   margin: 0 auto;
   font-family: inherit;
-  width: 100%;
-  apperance: none;
+  font-weight: 300; 
+}
+
+strong {
+  font-weight: 700;
 }
 
 article.abteilung {
@@ -79,12 +82,27 @@ article.abteilung h3 {
   color: inherit;
 }
 
-.aktuell p {
-  font-style: italic;
+.aktuell div.pos,
+.aktuell div.neg {
+  border: 2px solid var(--color-text);
+  border-radius: var(--border-radius);
+  padding: 0.5rem;
+  text-align: center;
 }
 
-.aktuell p:before {
-  content: "--> ";
+.aktuell div.pos p,
+.aktuell div.neg p {
+  margin: 0;
+}
+
+.aktuell div.pos {
+  border-color: rgba(76, 175, 80, 1);
+  background-color: rgba(76, 175, 80, 0.1);
+}
+
+.aktuell div.neg {
+  border-color: rgba(255, 65, 54, 1);
+  background-color: rgba(255, 65, 54, 0.1);
 }
 
 ul {

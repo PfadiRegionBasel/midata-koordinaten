@@ -91,13 +91,28 @@
   <article class="container aktuell">
     <h2>Aktueller Stand</h2>
 
-    <ul>
-      <li class="neg">Johanniter: 6 von 8</li>
-      <li class="pos">KPK: 17 von 17</li>
-      <li class="pos">Raurica: 5 von 5</li>
-      <li class="pos">Rheinbund: 5 von 5</li>
-      <li class="pos">Zytröseli: 5 von 5</li>
-    </ul>
+    <div class="row">
+      <div class="col neg">
+        <p><strong>Johanniter</strong></p>
+        <p>6 von 8</p>
+      </div>
+      <div class="col pos">
+        <p><strong>KPK</strong></p>
+        <p>17 von 17</p>
+      </div>
+      <div class="col pos">
+        <p><strong>Raurica</strong></p>
+        <p>5 von 5</p>
+      </div>
+      <div class="col pos">
+        <p><strong>Rheinbund</strong></p>
+        <p>5 von 5</p>
+      </div>
+      <div class="col pos">
+        <p><strong>Zytröseli</strong></p>
+        <p>5 von 5</p>
+      </div>
+    </div>    
 
     <details>
       <summary>Details Johanniter</summary>
