@@ -2,7 +2,7 @@
   require("credentials.php");
   
   // Johanniter, KPK, Raurica, Rheinbund, Zytröseli
-  $groupIds = array("765", "300", "766", "767", "768");
+  // $groupIds = array("765", "300", "766", "767", "768");
   
   if(!empty($_POST["abteilungsId"])){
     getGroups(htmlspecialchars($_POST["abteilungsId"]));
