@@ -90,78 +90,84 @@
 
   <article class="container aktuell">
     <h2>Aktueller Stand</h2>
-    <div class="row">
-      <div class="col">
-        <h3>Bezirk Johanniter</h3>
-        <ul>
-          <li class="pos">3 Tannen</li>
-          <li class="pos">Angenstein</li>
-          <li class="neg">Blauen</li>
-          <li class="neg">Mäitli Pfadi Rieche</li>
-          <li class="pos">Rychestei</li>
-          <li class="pos">Sunnebärg</li>
-          <li class="pos">Thierstein Breitenbach</li>
-          <li class="pos">Waldchutz</li>
-        </ul>
-        <p>6 von 8</p>
-      </div>
-      <div class="col">
-        <h3>Bezirk KPK</h3>
-        <ul>
-          <li class="pos">Allschwil St. Fridolin</li>
-          <li class="pos">Blauenstein</li>
-          <li class="pos">Bärenfels</li>
-          <li class="pos">Koinos</li>
-          <li class="pos">Laufen</li>
-          <li class="pos">Mönchsberg</li>
-          <li class="pos">Rynach St. Nikolaus</li>
-          <li class="pos">St. Alban</li>
-          <li class="pos">St. Benno</li>
-          <li class="pos">Kleinbasel - St. Heinrich</li>
-          <li class="pos">St. Leodegar</li>
-          <li class="pos">St. Martin-Ursula</li>
-          <li class="pos">St. Mauritius</li>
-          <li class="pos">Pfadi Münchenstein</li>
-          <li class="pos">St. Ragnachar</li>
-          <li class="pos">St. Urs</li>
-          <li class="pos">TEO Bärgstai</li>
-        </ul>
-        <p>17 von 17</p>
-      </div>
-      <div class="col">
-        <h3>Bezirk Raurica</h3>
-        <ul>
+
+    <ul>
+      <li class="neg">Johanniter: 6 von 8</li>
+      <li class="pos">KPK: 17 von 17</li>
+      <li class="pos">Raurica: 5 von 5</li>
+      <li class="pos">Rheinbund: 5 von 5</li>
+      <li class="pos">Zytröseli: 5 von 5</li>
+    </ul>
+
+    <details>
+      <summary>Details Johanniter</summary>
+      <ul>
+        <li class="pos">3 Tannen</li>
+        <li class="pos">Angenstein</li>
+        <li class="neg">Blauen</li>
+        <li class="neg">Mäitli Pfadi Rieche</li>
+        <li class="pos">Rychestei</li>
+        <li class="pos">Sunnebärg</li>
+        <li class="pos">Thierstein Breitenbach</li>
+        <li class="pos">Waldchutz</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Details KPK</summary>
+      <ul>
+        <li class="pos">Allschwil St. Fridolin</li>
+        <li class="pos">Blauenstein</li>
+        <li class="pos">Bärenfels</li>
+        <li class="pos">Koinos</li>
+        <li class="pos">Laufen</li>
+        <li class="pos">Mönchsberg</li>
+        <li class="pos">Rynach St. Nikolaus</li>
+        <li class="pos">St. Alban</li>
+        <li class="pos">St. Benno</li>
+        <li class="pos">Kleinbasel - St. Heinrich</li>
+        <li class="pos">St. Leodegar</li>
+        <li class="pos">St. Martin-Ursula</li>
+        <li class="pos">St. Mauritius</li>
+        <li class="pos">Pfadi Münchenstein</li>
+        <li class="pos">St. Ragnachar</li>
+        <li class="pos">St. Urs</li>
+        <li class="pos">TEO Bärgstai</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Details Raurica</summary>
+      <ul>
           <li class="pos">Adler Pratteln/Muttenz</li>
           <li class="pos">Farnsburg</li>
           <li class="pos">Liestal</li>
           <li class="pos">Rinau</li>
           <li class="pos">Waldenburgertal</li>
         </ul>
-        <p>5 von 5</p>
-      </div>
-      <div class="col">
-        <h3>Bezirk Rheinbund</h3>
-        <ul>
+    </details>
+
+    <details>
+      <summary>Details Rheinbund</summary>
+      <ul>
           <li class="pos">Möhlin</li>
           <li class="pos">PTA Pfadi Riehen</li>
           <li class="pos">Pro Patria</li>
           <li class="pos">Rheinbund</li>
           <li class="pos">Rheinfelden</li>
         </ul>
-        <p>5 von 5</p>
-      </div>
-      <div class="col">
-        <h3>Bezirk Zytröseli</h3>
-        <ul>
+    </details>
+
+    <details>
+      <summary>Details Zytröseli</summary>
+      <ul>
           <li class="pos">Bischofstein</li>
           <li class="pos">Falkenstein</li>
           <li class="pos">Ramstein</li>
           <li class="pos">Schalberg</li>
           <li class="pos">Pfadi Schenkenberg</li>
         </ul>
-        <p>5 von 5</p>
-      </div>
-    </div>
+    </details>
   </article>
   
   <!--
