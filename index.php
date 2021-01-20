@@ -1,3 +1,12 @@
+<?php
+  header('X-Content-Type-Options: nosniff');
+  header('X-Content-Type: text/html; charset=UTF-8');
+  header('X-Frame-Options: deny');
+  header("X-XSS-Protection: 1; mode=block");
+  header("Referrer-Policy: no-referrer");
+  header("Content-Security-Policy: default-src 'self'; script-src 'unsafe-inline'; frame-src https://www.google.com");
+?>
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
