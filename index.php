@@ -111,14 +111,14 @@
           <li class="pos">Allschwil St. Fridolin</li>
           <li class="pos">Blauenstein</li>
           <li class="pos">Bärenfels</li>
-          <li class="neg">Koinos</li>
+          <li class="pos">Koinos</li>
           <li class="pos">Laufen</li>
           <li class="pos">Mönchsberg</li>
           <li class="pos">Rynach St. Nikolaus</li>
           <li class="pos">St. Alban</li>
           <li class="pos">St. Benno</li>
           <li class="pos">Kleinbasel - St. Heinrich</li>
-          <li class="neg">St. Leodegar</li>
+          <li class="pos">St. Leodegar</li>
           <li class="pos">St. Martin-Ursula</li>
           <li class="pos">St. Mauritius</li>
           <li class="pos">Pfadi Münchenstein</li>
@@ -126,7 +126,7 @@
           <li class="pos">St. Urs</li>
           <li class="pos">TEO Bärgstai</li>
         </ul>
-        <p>15 von 17</p>
+        <p>17 von 17</p>
       </div>
       <div class="col">
         <h3>Bezirk Raurica</h3>
