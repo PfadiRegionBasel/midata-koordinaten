@@ -56,7 +56,7 @@
           if(!empty($data["linked"]["people"][0]["first_name"])) {
             echo($kontaktperson);
           } else {
-            echo("<em>Keine Kontaktangaben, bitte direkt auf MiData nachschlagen</em>");
+            echo("<em>Keine Kontaktangaben, bitte direkt auf <a href='https://db.scout.ch/de/groups/". $groupIds ."/people' target='_blank'>MiData</a> nachschlagen</em>");
           }
         ?>
       </span>
