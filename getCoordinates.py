@@ -4,13 +4,13 @@ from credentials import token
 
 # Bezirke: Johanniter, KPK, Raurica, Rheinbund, Zytröseli
 
-abteilungenJohannier = [8, 786, 788, 789, 790, 791] # ohne Blauen 787 und MPR 793
+abteilungenJohanniter = [8, 786, 788, 789, 790, 791] # ohne Blauen 787 und MPR 793
 abteilungenKPK = [800, 798, 796, 810, 794, 805, 809, 795, 797, 9024, 802, 803, 804, 806, 301, 807, 9150]
 abteilungenRaurica = [811, 812, 813, 814, 815]
 abteilungenRheinbund = [816, 817, 818, 819, 6828]
 abteilungenZytroeseli = [820, 821, 822, 823, 824]
 
-abteilungsIds = abteilungenJohannier + abteilungenKPK + abteilungenRaurica + abteilungenRheinbund + abteilungenZytroeseli
+abteilungsIds = abteilungenJohanniter + abteilungenKPK + abteilungenRaurica + abteilungenRheinbund + abteilungenZytroeseli
 textFile = open("output.txt", "w")
 
 i = 0
