@@ -23,6 +23,10 @@
        url('fonts/lato-v17-latin-700.woff2') format('woff2')
 }
 
+:root {
+	--color: #C62828;
+}
+
 
 body {
   padding-bottom: 3rem;
