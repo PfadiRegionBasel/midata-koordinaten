@@ -1,26 +1,42 @@
+/* lato-300 - latin */
 @font-face {
-  font-family: 'Inter var';
-  font-weight: 100 900;
-  font-display: swap;
+  font-family: 'Lato';
   font-style: normal;
-  font-named-instance: 'Regular';
-  src: url("fonts/Inter-roman.var.woff2?v=3.13") format("woff2");
+  font-weight: 300;
+  src: local(''),
+       url('fonts/lato-v17-latin-300.woff2') format('woff2')
 }
+
 @font-face {
-  font-family: 'Inter var';
-  font-weight: 100 900;
-  font-display: swap;
+  font-family: 'Lato';
   font-style: italic;
-  font-named-instance: 'Italic';
-  src: url("fonts/Inter-italic.var.woff2?v=3.13") format("woff2");
+  font-weight: 300;
+  src: local(''),
+       url('fonts/lato-v17-latin-300italic.woff2') format('woff2')
 }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('fonts/lato-v17-latin-700.woff2') format('woff2')
+}
+
 
 body {
   padding-bottom: 3rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
-@supports (font-variation-settings: normal) {
-  body { font-family: 'Inter var', sans-serif; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
 }
 
 h1 {
@@ -31,13 +47,19 @@ h1 {
 select {
   margin: 0 auto;
   font-family: inherit;
+  font-weight: 300;
   width: 100%;
-  apperance: none;
+}
+
+strong {
+  font-weight: 700;
 }
 
 article.abteilung {
+  margin-top: 1rem;
   border: 1px solid var(--color-text);
   padding: 0.25rem;
+  border-radius: var(--border-radius);
 }
 
 article.abteilung h3 {
@@ -63,12 +85,27 @@ article.abteilung h3 {
   color: inherit;
 }
 
-.aktuell p {
-  font-style: italic;
+.aktuell div.pos,
+.aktuell div.neg {
+  border: 4px solid var(--color-text);
+  border-radius: var(--border-radius);
+  padding: 0.5rem;
+  text-align: center;
 }
 
-.aktuell p:before {
-  content: "--> ";
+.aktuell div.pos p,
+.aktuell div.neg p {
+  margin: 0;
+}
+
+.aktuell div.pos {
+  border-color: rgba(76, 175, 80, 1);
+  background-color: rgba(76, 175, 80, 0.1);
+}
+
+.aktuell div.neg {
+  border-color: rgba(255, 65, 54, 1);
+  background-color: rgba(255, 65, 54, 0.1);
 }
 
 ul {
