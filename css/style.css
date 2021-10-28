@@ -25,6 +25,7 @@
 
 :root {
 	--color: #C62828;
+	--color-link: var(--color);
 }
 
 
@@ -121,13 +122,13 @@ ul li {
 }
 
 ul li.pos:before {
-  content: '✔';
+  content: 'âœ”';
   color: var(--color-green);
   margin-right: 0.5rem;
 }
 
 ul li.neg:before {
-  content: '✖';
+  content: 'âœ–';
   color: var(--color-red);
   margin-right: 0.5rem;
 }

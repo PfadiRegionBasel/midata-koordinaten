@@ -1,3 +1,12 @@
+<?php
+  header('X-Content-Type-Options: nosniff');
+  header('X-Content-Type: text/html; charset=UTF-8');
+  header('X-Frame-Options: deny');
+  header("X-XSS-Protection: 1; mode=block");
+  header("Referrer-Policy: no-referrer");
+  header("Content-Security-Policy: default-src 'self'; script-src 'self'; frame-src https://www.google.com");
+?>
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -90,102 +99,106 @@
 
   <article class="container aktuell">
     <h2>Aktueller Stand</h2>
+
     <div class="row">
-      <div class="col">
-        <h3>Bezirk Johanniter</h3>
-        <ul>
-          <li class="pos">3 Tannen</li>
-          <li class="pos">Angenstein</li>
-          <li class="neg">Blauen</li>
-          <li class="neg">Mäitli Pfadi Rieche</li>
-          <li class="pos">Rychestei</li>
-          <li class="pos">Sunnebärg</li>
-          <li class="pos">Thierstein Breitenbach</li>
-          <li class="pos">Waldchutz</li>
-        </ul>
+      <div class="col neg">
+        <p><strong>Johanniter</strong></p>
         <p>6 von 8</p>
       </div>
-      <div class="col">
-        <h3>Bezirk KPK</h3>
-        <ul>
-          <li class="pos">Allschwil St. Fridolin</li>
-          <li class="pos">Blauenstein</li>
-          <li class="pos">Bärenfels</li>
-          <li class="pos">Koinos</li>
-          <li class="pos">Laufen</li>
-          <li class="pos">Mönchsberg</li>
-          <li class="pos">Rynach St. Nikolaus</li>
-          <li class="pos">St. Alban</li>
-          <li class="pos">St. Benno</li>
-          <li class="pos">Kleinbasel - St. Heinrich</li>
-          <li class="pos">St. Leodegar</li>
-          <li class="pos">St. Martin-Ursula</li>
-          <li class="pos">St. Mauritius</li>
-          <li class="pos">Pfadi Münchenstein</li>
-          <li class="pos">St. Ragnachar</li>
-          <li class="pos">St. Urs</li>
-          <li class="pos">TEO Bärgstai</li>
-        </ul>
+      <div class="col pos">
+        <p><strong>KPK</strong></p>
         <p>17 von 17</p>
       </div>
-      <div class="col">
-        <h3>Bezirk Raurica</h3>
-        <ul>
+      <div class="col pos">
+        <p><strong>Raurica</strong></p>
+        <p>5 von 5</p>
+      </div>
+      <div class="col pos">
+        <p><strong>Rheinbund</strong></p>
+        <p>5 von 5</p>
+      </div>
+      <div class="col pos">
+        <p><strong>Zytröseli</strong></p>
+        <p>5 von 5</p>
+      </div>
+    </div>    
+
+    <details>
+      <summary>Details Johanniter</summary>
+      <ul>
+        <li class="pos">3 Tannen</li>
+        <li class="pos">Angenstein</li>
+        <li class="neg">Blauen</li>
+        <li class="neg">Mäitli Pfadi Rieche</li>
+        <li class="pos">Rychestei</li>
+        <li class="pos">Sunnebärg</li>
+        <li class="pos">Thierstein Breitenbach</li>
+        <li class="pos">Waldchutz</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Details KPK</summary>
+      <ul>
+        <li class="pos">Allschwil St. Fridolin</li>
+        <li class="pos">Blauenstein</li>
+        <li class="pos">Bärenfels</li>
+        <li class="pos">Koinos</li>
+        <li class="pos">Laufen</li>
+        <li class="pos">Mönchsberg</li>
+        <li class="pos">Rynach St. Nikolaus</li>
+        <li class="pos">St. Alban</li>
+        <li class="pos">St. Benno</li>
+        <li class="pos">Kleinbasel - St. Heinrich</li>
+        <li class="pos">St. Leodegar</li>
+        <li class="pos">St. Martin-Ursula</li>
+        <li class="pos">St. Mauritius</li>
+        <li class="pos">Pfadi Münchenstein</li>
+        <li class="pos">St. Ragnachar</li>
+        <li class="pos">St. Urs</li>
+        <li class="pos">TEO Bärgstai</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Details Raurica</summary>
+      <ul>
           <li class="pos">Adler Pratteln/Muttenz</li>
           <li class="pos">Farnsburg</li>
           <li class="pos">Liestal</li>
           <li class="pos">Rinau</li>
           <li class="pos">Waldenburgertal</li>
         </ul>
-        <p>5 von 5</p>
-      </div>
-      <div class="col">
-        <h3>Bezirk Rheinbund</h3>
-        <ul>
+    </details>
+
+    <details>
+      <summary>Details Rheinbund</summary>
+      <ul>
           <li class="pos">Möhlin</li>
           <li class="pos">PTA Pfadi Riehen</li>
           <li class="pos">Pro Patria</li>
           <li class="pos">Rheinbund</li>
           <li class="pos">Rheinfelden</li>
         </ul>
-        <p>5 von 5</p>
-      </div>
-      <div class="col">
-        <h3>Bezirk Zytröseli</h3>
-        <ul>
+    </details>
+
+    <details>
+      <summary>Details Zytröseli</summary>
+      <ul>
           <li class="pos">Bischofstein</li>
           <li class="pos">Falkenstein</li>
           <li class="pos">Ramstein</li>
           <li class="pos">Schalberg</li>
           <li class="pos">Pfadi Schenkenberg</li>
         </ul>
-        <p>5 von 5</p>
-      </div>
-    </div>
+    </details>
   </article>
   
-  <!--
   <footer class="small text-center">
-    <p><a href="https://github.com/jgrueter/midata-koordinaten" target="_blank" rel="noopener noreferrer"><img src="img/github.svg"></a></p>
+    <p><a href="https://github.com/PfadiRegionBasel/midata-koordinaten" target="_blank" rel="noopener noreferrer"><img src="img/github.svg"></a></p>
   </footer>
-  -->
 
   <script src="js/jquery.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $("#abteilung").change(function(){
-        var allbooks = $(this).val();
-        var dataString = "abteilungsId="+allbooks;
-        $.ajax({
-          type: "POST",
-          url: "get-data.php",
-          data: dataString,
-          success: function(result){
-            $("#show").html(result);
-          }
-        });
-      });
-    });
-  </script>
+  <script src="js/ajax.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@
   require("credentials.php");
   
   // Johanniter, KPK, Raurica, Rheinbund, Zytröseli
-  $groupIds = array("765", "300", "766", "767", "768");
+  // $groupIds = array("765", "300", "766", "767", "768");
   
   if(!empty($_POST["abteilungsId"])){
     getGroups(htmlspecialchars($_POST["abteilungsId"]));
@@ -56,7 +56,7 @@
           if(!empty($data["linked"]["people"][0]["first_name"])) {
             echo($kontaktperson);
           } else {
-            echo("<em>Keine Kontaktangaben, bitte direkt auf MiData nachschlagen</em>");
+            echo("<em>Keine Kontaktangaben, bitte direkt auf <a href='https://db.scout.ch/de/groups/". $groupIds ."/people' target='_blank'>MiData</a> nachschlagen</em>");
           }
         ?>
       </span>
